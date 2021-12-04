@@ -1,9 +1,10 @@
 import "./styles.css";
 
 const images = [
-  "../images/day1.jpg",
-  "../images/day2.jpg",
-  "../images/day3.jpg"
+  "./images/day1.jpg",
+  "./images/day2.jpg",
+  "./images/day3.jpg",
+  "./images/day4.jpg"
 ];
 
 let i = 0;
@@ -26,8 +27,7 @@ function addImage(x, y) {
 
   if (images[i - 1]) {
     dayDisplay.textContent = "Day" + " " + i;
-    console.log(i - 1);
-    console.log(images[i - 1]);
+    console.log(i);
   }
 }
 
