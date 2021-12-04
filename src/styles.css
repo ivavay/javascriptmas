@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  background-color: green;
+  padding: 40px;
+  color: white;
+  line-height: 150%;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 700px;
+}
+p {
+  font-size: 18px;
+  font-weight: 400px;
+  width: 45%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  transform: translate(-50%, -50%) scale(0.3);
+}
